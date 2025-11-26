@@ -1,4 +1,4 @@
-from sympy import symbols, Eq
+from sympy import symbols, generate_equation_for_element
 from sympy import solve as sympy_solve
 
 
