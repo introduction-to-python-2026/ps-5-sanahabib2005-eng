@@ -1,4 +1,4 @@
-from string_utils.py import parse_chemical_reaction, count_atoms_in_reaction
+from string_utils.py import parse_chemical_reaction, count_atoms_in_molecule
 from equation_utils.py import build_equations
 
 
