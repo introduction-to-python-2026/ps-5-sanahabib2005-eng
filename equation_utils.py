@@ -1,4 +1,4 @@
-from sympy import symbols , Eq , enumerate
+from sympy import symbols , Eq 
 from sympy import solve as sympy_solve
 
 
