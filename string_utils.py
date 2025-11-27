@@ -28,8 +28,8 @@ def count_atoms_in_molecule(molecular_formula):
     dictionary = {}
     for atom in split_before_uppercases(molecular_formula):
         atom_name, count = split_at_digit(atom)
-        dictionary[atom_name] = dictionary.get(atom_name,0)+ count
-    return dictionary
+        count[atom_name] = count
+    return count
 
 
 
